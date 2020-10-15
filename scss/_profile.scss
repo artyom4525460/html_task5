@@ -54,26 +54,3 @@
         }
     }
 }
-
-
-.account-header{
-    padding-bottom: 80px;
-    @media screen and (max-width: $max-width){
-        padding-bottom: 7.11vw;
-    }
-    .field-button{
-        margin-top: 80px;
-        @media screen and (max-width: $max-width){
-            margin-top: 7.11vw;
-        }
-    }
-}
-
-.verify-body{
-    .field-button{
-        margin: 50px 0 100px;
-        @media screen and (max-width: $max-width){
-            margin: 4.44vw 0 8.88vw;
-        }
-    }
-}
