@@ -473,6 +473,8 @@ button {
       margin-right: 25px;
       background-color: #5b5b5b;
       float: left; }
+      .top-section .tabs .tab .image-block img {
+        max-width: 100%; }
       @media screen and (max-width: 1125px) {
         .top-section .tabs .tab .image-block {
           margin-right: 2.22vw;

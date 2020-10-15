@@ -99,6 +99,9 @@
                 margin-right: 25px;
                 background-color: #5b5b5b;
                 float: left;
+                img{
+                    max-width: 100%;
+                }
                 @media screen and (max-width: $max-width){
                     margin-right: 2.22vw;
                     width: 4.88vw;
