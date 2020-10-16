@@ -471,8 +471,10 @@ button {
       width: 55px;
       height: 55px;
       margin-right: 25px;
-      background-color: #5b5b5b;
-      float: left; }
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
       .top-section .tabs .tab .image-block img {
         max-width: 100%; }
       @media screen and (max-width: 1125px) {
@@ -487,8 +489,6 @@ button {
       @media screen and (max-width: 1125px) {
         .top-section .tabs .tab.active {
           border-radius: 1.77vw; } }
-      .top-section .tabs .tab.active .image-block {
-        background-color: #fff; }
 
 .content-section .title {
   font-size: 65px;
