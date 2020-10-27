@@ -80,5 +80,11 @@ hr {
 }
 
 .blur {
-    filter: blur(5px) !important;
+    filter: blur(15px) !important;
+    @media screen and (max-width: $max-width) {
+        filter: blur(1.5vw) !important;
+    }
+    * {
+        cursor: auto !important;
+    }
 }
